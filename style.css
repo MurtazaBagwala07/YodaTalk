@@ -1,0 +1,52 @@
+html{
+    height: 100%;
+}
+body{
+    background-image: linear-gradient(rgb(131, 216, 152),rgb(53, 148, 57));
+    background-repeat: no-repeat;
+    min-height: 100%;
+    width: 100%;
+}
+h1{
+    text-align: center;
+}
+
+.textarea{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 30rem;
+    min-height: 6rem;
+    border-radius: 0.8rem;
+    padding: 1rem;
+    outline: none;
+}
+
+button{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    width: 5rem;
+    height: 3rem;
+}
+
+.output-label{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.output{
+    display: block;
+    margin: auto;
+    background-color: white;
+    width: 30rem;
+    height: 5rem;
+    border-radius: 0.8rem;
+    padding: 1rem;
+}
