@@ -2,10 +2,12 @@ var translateButton = document.querySelector("#btn-Translate");
 var inputText = document.querySelector("#text-Area");
 var output = document.querySelector("#output");
 
-var serverUrl="https://api.funtranslations.com/translate/yoda.json";
+var serverURL="https://api.funtranslations.com/translate/yoda.json";
 
 function translationUrl(text){
-    return serverUrl+"?"+"text="+text;
+    
+    return serverURL+"?"+"text="+text;
+    
 }
 
 function errorHandler(error){
@@ -16,7 +18,7 @@ function errorHandler(error){
 function clickHandler(){
     
     var inputTxt = inputText.value;
-    fetch(getTranslationURL(inputTxt))
+    fetch(translationUrl(inputTxt))
     .then(response => response.json())
     .then(json => {
         var translatedText = json.contents.translated;
