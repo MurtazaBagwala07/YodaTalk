@@ -60,3 +60,33 @@ button{
     font-family: 'Dancing Script', cursive;
     font-size: 1.5rem;
 }
+
+.footer{
+    
+    background-color: lightblue;
+    position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto
+}
+
+.footer ul{
+    display: flex;
+    list-style: none;
+    bottom: 0;
+    justify-content: center;
+
+}
+
+.footer li{
+    margin: auto 2rem 0 2rem;
+    padding: 0  2rem;
+    font-size: 2rem;
+    
+}
+
+.footer p{
+    text-align: center;
+    font-size: 1.2rem;
+    color: purple;
+}
